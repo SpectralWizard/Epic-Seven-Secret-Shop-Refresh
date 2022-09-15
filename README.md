@@ -2,7 +2,7 @@
 
 Programmed in Python 3.6.4
 
-Use at your own risk.
+Use at your own risk. May skip BMs
 
 ## Benefits of using this secret shop refresh over other files
 1. You can use your mouse. The other scripts will use your mouse to click but this program sends keys to BS5. However, it will still set your BS5 to foreground so it's still not perfect. 
@@ -63,6 +63,8 @@ Assuming you have all the python libraries and is ready to execute...
 3. First thing the script does is check if it can find BS5 so it'll send a key. If it doesn't, just click BS5.
 4. Enter in the start button (it is [ by default) and it will start running
 5. To pause the script spam the pause button (it is ] by default) into the terminal
+
+Don't move your BS5
 
 ## Image checker
 Within the script you can set image checker flag on True in the class user settings if you want to check if a certain image is being detected.
