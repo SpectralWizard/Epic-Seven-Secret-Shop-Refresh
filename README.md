@@ -66,5 +66,7 @@ Assuming you have all the python libraries and is ready to execute...
 
 ## Image checker
 Within the script you can set image checker flag on True in the class user settings if you want to check if a certain image is being detected.
+
 Make sure your epic seven is opened at the screen you want to check a specific image at.
+
 If you want it to run faster then comment out the images you don't want to check in img_checker function.
