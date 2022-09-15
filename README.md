@@ -29,6 +29,8 @@ Screenshots: All images were screenshotted on 1280x720 and screenshotted on thes
 2. BlueStacks 5
 3. BlueStacks 5 key mapped
 4. BlueStacks 5 must be opened in your main display
+5. Have the right side bar of BS5 opened
+6. Script must be executed with admin mode
 
 ## Settings
 Edit python script for these settings. It's commented in the code so just read that.
