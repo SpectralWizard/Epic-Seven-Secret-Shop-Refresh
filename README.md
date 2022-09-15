@@ -1,1 +1,57 @@
 # Epic-Seven-Secret-Shop-Refresh
+
+Programmed in Python 3.6.4
+
+Use at your own risk.
+
+## Benefits of using this secret shop refresh over other files
+1. You can use your mouse. The other scripts will use your mouse to click but this program sends keys to BS5. However, it will still set your BS5 to foreground so it's still not perfect. 
+2. Centralised settings for easy maintenance
+3. Consistent image find - automatic bluestacks resize
+4. Fast
+5. Retries on fail attempts
+6. Script pause
+7. Prints results vs average
+
+## Downsides
+1. No randomised clicking
+
+## Tested on these specific bluestacks 5 settings
+1. Pixel density: 240 DPI
+2. Graphics: Performance
+3. Graphics Rendererr: OpenGL
+
+## Pre-requisites
+1. Python 3
+2. BlueStacks 5
+3. BlueStacks 5 key mapped
+4. BlueStacks 5 must be opened in your main display
+
+## Mapping Instructions
+You need to map 11 keys to BS5 in the refresh shop.
+
+### 9 Repeated tap buttons and swipe 
+
+All repeated tap button settings: Count=2, Repeat until key up=False. Rest on default.
+
+Swipe settings: all on default
+
+1. Open secret refresh shop and key map A, B, C, D to the first four buy buttons in order.
+2. Scroll all the way to the bottom and key map E, F to the last two buttons in order.
+3. Click any buy button then key map R to the pop-up buy button.
+4. Key map the refresh button to Y.
+5. Put a swipe in the middle of the screen somewhere. Set the north of the circle key map to S, set the south to T. S should scroll down, T should scroll up.
+6. Click refresh, and key map Z to the confirm button.
+
+## Instructions
+
+1. Open secret shop (make sure there are no bought BMs on the screen)
+2. Run in admin mode. 
+3. First thing the script does is check if it can find BS5 so it'll send a key. If it doesn't, just click BS5.
+4. Enter in the start button (it is ] by default) and it will start running
+5. To pause the script spam the pause button (it is [ by default) into the terminal
+
+## Image checker
+Within the script you can set image checker flag on True in the class user settings if you want to check if a certain image is being detected.
+Make sure your epic seven is opened at the screen you want to check a specific image at.
+If you want it to run faster then comment out the images you don't want to check in img_checker function.
