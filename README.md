@@ -44,7 +44,7 @@ The sleep durations have been customised to my OWN internet so if your internet 
 ## Mapping Instructions
 You need to map 11 keys to BS5 in the refresh shop. 
 
-### 9 Repeated tap buttons and swipe 
+### 9 Repeated tap keybinds and 2 swipe keybinds 
 
 All repeated tap button settings: Count=2, Repeat until key up=False. Rest on default.
 
