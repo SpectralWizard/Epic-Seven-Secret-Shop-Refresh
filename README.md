@@ -63,7 +63,7 @@ Assuming you have all the python libraries and is ready to execute...
 1. Open secret shop (make sure there are no bought BMs on the screen)
 2. Run refresh.py in admin mode. 
 3. First thing the script does is check if it can find BS5 so it'll send a key. If it doesn't, just click BS5.
-4. Enter in the start button (it is [ by default) and it will start running
+4. Enter in the start button (it is [ by default) in the terminal and it will start running
 5. To pause the script spam the pause button (it is ] by default) into the terminal
 
 Don't move your BS5
