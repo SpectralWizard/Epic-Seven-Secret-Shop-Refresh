@@ -33,7 +33,7 @@ Screenshots: All images were screenshotted on 1280x720 and screenshotted on thes
 6. Script must be executed with admin mode
 
 ## Settings
-Edit python script for these settings. It's commented in the code so just read that.
+If you need to tweak any of the settings read the comments in the python script.
 
 The only classes you could tweak is UserSettings, FileNames, and Keys.
 
