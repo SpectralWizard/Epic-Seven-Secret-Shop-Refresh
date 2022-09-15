@@ -20,6 +20,9 @@ Use at your own risk.
 1. Pixel density: 240 DPI
 2. Graphics: Performance
 3. Graphics Rendererr: OpenGL
+4. Resolution: 1280x720 (the script will resize to this). 
+
+Screenshots: All images were screenshotted on 1280x720 and screenshotted on these settings.
 
 ## Pre-requisites
 1. Python 3
@@ -27,8 +30,17 @@ Use at your own risk.
 3. BlueStacks 5 key mapped
 4. BlueStacks 5 must be opened in your main display
 
+## Settings
+Edit python script for these settings. It's commented in the code so just read that.
+
+The only classes you could tweak is UserSettings, FileNames, and Keys.
+
+For keys, refer to https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+
+The sleep durations have been customised to my OWN internet so if your internet is not stable you may need to tweak all the sleeps accordingly. Do not set below these numbers.
+
 ## Mapping Instructions
-You need to map 11 keys to BS5 in the refresh shop.
+You need to map 11 keys to BS5 in the refresh shop. 
 
 ### 9 Repeated tap buttons and swipe 
 
@@ -43,7 +55,8 @@ Swipe settings: all on default
 5. Put a swipe in the middle of the screen somewhere. Set the north of the circle key map to S, set the south to T. S should scroll down, T should scroll up.
 6. Click refresh, and key map Z to the confirm button.
 
-## Instructions
+## Executing instructions
+Assuming you have all the python libraries and is ready to execute...
 
 1. Open secret shop (make sure there are no bought BMs on the screen)
 2. Run in admin mode. 
