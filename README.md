@@ -15,6 +15,7 @@ Use at your own risk. May skip BMs
 
 ## Downsides
 1. No randomised clicking
+2. Slightly more set-up if you don't have the keymap
 
 ## Tested on these specific bluestacks 5 settings
 1. Pixel density: 240 DPI
