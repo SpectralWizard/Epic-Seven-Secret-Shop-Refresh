@@ -101,7 +101,7 @@ class Count:
               "\nTotal Screens Checked = ", self.screens_checked,
               "\nSkystones = ", self.skystones,
               "\n------vs Expected Avg------"
-              "\nAverage for reference: 68ss per cov, 237 per cov"
+              "\nAverage for reference: 68ss per cov, 237ss per mys"
               "\nCovenant Bookmarks = ", round(self.skystones / 68, 1),
               "\nMystic Bookmarks = ", round(self.skystones / 238, 1),
               "\n----------------")
