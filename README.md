@@ -23,7 +23,7 @@ Use at your own risk. May skip BMs
 3. Graphics Rendererr: OpenGL
 4. Resolution: 1280x720 (the script will resize to this). 
 
-Screenshots: All images were screenshotted on 1280x720 and screenshotted on these settings.
+Screenshots: All images were screenshotted on these settings.
 
 ## Pre-requisites
 1. Python 3
