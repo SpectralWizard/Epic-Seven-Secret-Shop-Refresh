@@ -279,7 +279,7 @@ class RefreshSecretShop:
         for attempt in range(max_attempts):
             print(attempt, end="", flush=True)
             try:
-                sleep(.75)
+                sleep(1.5)
                 return pyautogui.locateOnScreen(self.filename.cov_icon, confidence=0.75), pyautogui.locateOnScreen(
                     self.filename.mys_icon, confidence=0.75)
             except Exception as e:
