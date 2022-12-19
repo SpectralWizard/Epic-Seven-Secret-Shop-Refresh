@@ -14,7 +14,7 @@ Use at your own risk. May skip BMs
 7. Prints results vs average
 
 ## Downsides
-1. No randomised clicking
+1. No randomised clicking - if you are familiar with python you can add in yourself or modify code
 2. Slightly more set-up if you don't have the keymap
 
 ## Tested on these specific bluestacks 5 settings
