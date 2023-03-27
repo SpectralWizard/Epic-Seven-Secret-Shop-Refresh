@@ -3,7 +3,7 @@
 Developed on Python 3.6.4
 Created on 2022-09-10
 
-Only tested with Bluestacks 5. Results may vary and not guaranteed. Batteries not included.
+Only compatible with Bluestacks 5. Results may vary and not guaranteed. Batteries not included.
 """
 
 from datetime import datetime, timedelta
@@ -21,7 +21,7 @@ class UserSettings:
         self.pause_btn = "]"
         self.bs_height = 1280  # Window height you want your bluestacks at when refreshing, the bot will resize to this
         self.bs_width = 720  # Window width you want your bluestacks at when refreshing, the bot will resize to this
-        self.max_rolls = 300  # Set number of refreshes you stop at
+        self.max_rolls = 1000  # Set number of refreshes you stop at
         self.print_at_roll = 50  # If set at 50, it will print how many refreshes/bms you've gotten every 50 rolls
 
 
@@ -83,6 +83,7 @@ class Count:
         self.cov = 0
         self.screens_checked = 0
         self.scan = 0
+        self.max_scans = 0
         self.cov_buy_btn = 0
         self.mys_buy_btn = 0
         self.confirm_btn = 0
@@ -187,6 +188,7 @@ class RefreshSecretShop:
             if input("To start refreshing, enter the key {}".format(self.settings.start_btn)) == self.settings.start_btn:
                 print("Started secret shop refresh.")
                 self.count.scan = 0
+                self.count.max_scans += self.settings.max_rolls
                 while not keyboard.is_pressed(self.settings.pause_btn):
                     # Beginning operations
                     if self.count.scan == 0:
@@ -211,13 +213,13 @@ class RefreshSecretShop:
                         if self.count.screens_checked % self.settings.print_at_roll == 0:
                             self.count.print_all()
                         # Stops refreshing at N rolls user has set
-                        if self.count.screens_checked == self.settings.max_rolls:
+                        if self.count.screens_checked == self.count.max_scans:
                             break
 
                 print("\nStopping refresh.")
                 self.count.print_all()
                 # Wait a little bit so user stops spamming the key if not at max refresh.
-                if not self.count.screens_checked == self.settings.max_rolls:
+                if not self.count.screens_checked == self.count.max_scans:
                     sleep(2)
                 print("Refresh stopped.")
 
