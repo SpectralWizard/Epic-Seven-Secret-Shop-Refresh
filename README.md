@@ -4,7 +4,7 @@ Programmed in Python 3.6.4
 
 Use at your own risk. You may get banned if smilegate no likey or it may skip bms.
 
-## Benefits of using this secret shop refresh over other files
+## Benefits of using this secret shop refresh
 1. You can use your mouse. The other scripts will use your mouse to click but this program sends keys to BS5. However, it will still set your BS5 to foreground so it's still not perfect. 
 2. Centralised settings for easy maintenance
 3. Consistent image find - automatic bluestacks resize
